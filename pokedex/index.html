@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pokedex</title>
+    <script src="dynamics/js/pokedex.js"></script>
+    <link rel="stylesheet" href="statics/styles/pokedex.css">
+  </head>
+  <body>
+    <div id="contenedor-buscador">
+      <img id="logo-pokemon" src="statics/img/Pokemon_logo.png">
+      <input id="buscador" placeholder="Busca a tu pokemon">
+      <button id="btn-agregar">+</button>
+      <div id="contenedor-resultados"></div>
+    </div>
+  
+    <div id="contenedor-mostrar" style="display:none">
+      
+    </div>
+
+    <div id="contenedor-agregar" style="display:none">
+      <form id="form-nuevo">
+        <div><h2>Agregar un Pokemon</h2></div>
+        <div class="campo-form"><label>Nombre</label> <input type="text" name="nombre"></div>
+        <div class="campo-form"><label>Altura</label> <input type="number" name="altura" min="1"></div>
+        <div class="campo-form"><label>Peso</label> <input type="number" name="peso" min="1"></div>
+        <div class="campo-form"><label>Experiencia base</label> <input type="text" name="exp_base" min="1"></div>
+        <div class="campo-form"><label>Tipo</label> <select id="select-tipos" name="tipo"></select></div>
+        <button id="btn-enviar">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>

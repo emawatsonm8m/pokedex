@@ -1,0 +1,94 @@
+body{
+  background-color: #fc2803;
+}
+
+#logo-pokemon{
+  width: 70vw;
+  max-width: 80vw;
+}
+
+#contenedor-buscador{
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#buscador{
+  height: 3em;
+  width: 80vw;
+  font-size: large;
+}
+
+#btn-agregar{
+  height: 3em;
+  border-radius: 1.5em;
+  width: 3em;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #00ff00;
+  border-color: green;
+}
+
+
+#btn-agregar:hover{
+  background-color: green;
+  border-color: green;
+  cursor: pointer;
+}
+
+#contenedor-agregar{
+  background-color: white;
+  border: 2px solid black;
+  padding: 2em;
+}
+
+#contenedor-resultados{
+  background-color: white;
+
+}
+
+.campo-form{
+  padding: 1em 0;
+}
+
+.coincidencia{
+  padding: 0.5em;
+  border-bottom: 1px solid black;
+}
+
+.coincidencia:hover{
+  background-color: rgb(215, 215, 215);
+  cursor: pointer;
+}
+
+#contenedor-mostrar{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.dato{
+  min-width: 200px;
+  width: 10vw;
+  height: 10vw;
+  background-color: white;
+  padding: 1em;
+  text-align: center;
+  margin: 5px 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.botones{
+  min-width: 200px;
+  width: 10vw;
+  background-color:gold;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  min-height: 10vw;
+}
+
+#btn-eliminar:hover{
+  background-color:rgb(154, 132, 9);
+}
